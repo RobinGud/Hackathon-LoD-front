@@ -1,0 +1,97 @@
+body {
+  margin: 0px;
+  display: flex;
+}
+
+h2 {
+  margin: 10px;
+}
+
+p {
+  margin: 5px;
+}
+
+#map {
+  width: 100%;
+  position: relative;
+  /* float: left; */
+  /* height: 1198px; */
+  /* background-image: url(./map.png);
+  background-repeat: no-repeat; */
+}
+
+#notification {
+  width: 30%;
+  height: 100vh;
+  /* float: right; */
+  background: #b9b9b9;
+  overflow: scroll;
+}
+
+.circle {
+  opacity: 1;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.red {
+  background: #c23030;
+}
+
+.green {
+  background: #0d8050;
+}
+
+.blue {
+  background: #106ba3;
+}
+
+.big {
+  width: 15px;
+  height: 15px;
+}
+
+.medium {
+  width: 10px;
+  height: 10px;
+}
+
+.small {
+  width: 5px;
+  height: 5px;
+}
+
+.hide {
+  transition-duration: 0.5s;
+  transition-property: opacity;
+  opacity: 0;
+}
+
+/*  */
+
+.alert {
+  margin: 10px 5px;
+  padding: 10px;
+  /* background-color: #f44336; Red */
+  color: white;
+  border: 1px solid #000;
+  /* margin-bottom: 5px; */
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+*/
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
